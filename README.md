@@ -1,2 +1,2 @@
 # MyMemo
-My startup project to learn JavaScript
+A project to learn JavaScript
