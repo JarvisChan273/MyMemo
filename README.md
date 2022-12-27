@@ -3,6 +3,7 @@ A project created to learn JavaScript: An Event Memo
 
 ## To Run The File
 --> Download and extract the .zip file
+
 --> open the .html file 
 
 ## How To Use
