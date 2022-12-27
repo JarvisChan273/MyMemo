@@ -34,7 +34,7 @@ input {
 
 .event {
     width: 100%;
-    border-bottom: 1px solid #000000;
+    border-top: 2px solid #000000;
     margin-bottom: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -42,7 +42,11 @@ input {
     align-items: center;
 }
 
-.delete {
+.btnDelete-group{
+    display: flex;
+}
+
+.delete{
     background-color: rgb(212, 101, 101);
     margin-top: 20px;
     color: #ffffff;
@@ -50,5 +54,9 @@ input {
     box-sizing: border-box;
     width: 100%;
     padding: 15px;
-    cursor: pointer; 
+    cursor: pointer;
 }
+
+
+
+
