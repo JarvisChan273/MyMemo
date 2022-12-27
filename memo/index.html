@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html leng="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./index.css">
-        <title> My Memo </title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title> My Memo </title>
+</head>
 
-        <div class="app">
-            <h1>My Memo</h1>
-            <p>Event</p>
-            <input type="text" id="inputContent" />
-            <p>Date</p>
-            <input type="date" id="inputDate" />
-            <p>Time</p>
-            <input type="time" id="inputTime" />
-            <button class="add" id="btnAdd">Add</button>
-            <button class="delete" id="btnDeleteFirst">Delete the first one</button>
-            <button class="delete" id="btnDeleteLast">Delete the last one</button>
+<body>
 
-            <!-- List to display -->
-            <div class="eventList" id="eventList">
-                <div class="event">
-                    <div>
-                        <p>Event:</p>
-                        <p>Time:</p>
-                    </div>    
+    <div class="app">
+        <h1>My Memo</h1>
+        <p>Event</p>
+        <input type="text" id="inputContent" placeholder="Input Your Event Here ... " />
+        <p>Date</p>
+        <input type="date" id="inputDate" />
+        <p>Time</p>
+        <input type="time" id="inputTime" />
+        <button class="add" id="btnAdd">Add</button>
+
+        <!-- <div class="btnDelete-row">
+            <div class="btnDelete-left">
+                <button class="btnDelete" id="btnDeleteFirst">Delete the first one</button>
+            </div>
+            <div class="btnDelete-right">
+                <button class="btnDelete" id="btnDeleteLast">Delete the last one</button>
+            </div>
+        </div> -->
+
+        <div class="btnDelete-group">
+            <button class="delete" id="btnDeleteFirst" style="margin-right: 5px;">Delete the first one</button>
+            <button class="delete" id="btnDeleteLast" style="margin-left: 5px;">Delete the last one</button>
+        </div>
+
+
+        <!-- List to display -->
+        <div class="eventList" id="eventList">
+            <div class="event">
+                <div>
+                    <p>Event:</p>
+                    <p>Time:</p>
                 </div>
-                
             </div>
 
         </div>
 
-        <script src="./index.js"></script>
-    </body>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
 </html>
