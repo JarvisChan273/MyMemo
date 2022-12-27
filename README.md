@@ -10,7 +10,7 @@ A project created to learn JavaScript: An Event Memo
 
 1. Type in the event name in the text box under "Event" 
 
-	1a. Press **_Enter_** key to store the event you have entered without specifiying the Data and Time
+	1a. Press **_Enter_** key to store the event you have entered without specifying the Data and Time
 	
 	1b. Select the Data and Time of your event
 	
