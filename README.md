@@ -1,5 +1,5 @@
 # MyMemo
-A project created to learn JavaScript: An Event Memo
+A project created by JavaScript: An Event Memo
 
 ## To Run The File
 --> Download and extract the .zip file
