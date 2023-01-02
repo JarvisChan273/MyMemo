@@ -27,7 +27,7 @@ function refresh() {
         `
     })
 
-    eventList.innerHTML = strHtml
+    eventList.innerHTML = strHtml;
 }
 
 btnAdd.addEventListener('click', function () {
@@ -38,22 +38,24 @@ btnAdd.addEventListener('click', function () {
         time: time.value
     })
 
+    inputContent.value=""; 
     refresh();
 })
 
 // When user hit 'Enter' in the text box, add to the list  
 inputContent.addEventListener('keyup', function (event) {
 
-    if(event.key === 'Enter'){
+    if (event.key === 'Enter') {
         listContent.push({       // push to the top OR unshift      
-        content: content.value,
-        date: date.value,
-        time: time.value
-    })
+            content: content.value,
+            date: date.value,
+            time: time.value
+        })
 
-    refresh();
+        inputContent.value=""; 
+        refresh();
     }
-    
+
 })
 
 btnDeleteFirst.addEventListener('click', function () {
