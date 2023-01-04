@@ -2,7 +2,7 @@
 A project created by JavaScript, HTML and CSS: An Event Memo
 
 ## To Run The File
---> copy the link **https://jarvischan273.github.io/MyMemo/Memo/index.html** and paste the link into a browser
+--> copy and paste the link **https://jarvischan273.github.io/MyMemo/Memo/index.html** into a browser 
 
 ## How To Use
 
